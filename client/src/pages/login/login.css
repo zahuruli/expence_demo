@@ -1,0 +1,38 @@
+.login-page {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-color: blueviolet;
+  background-image: url("https://e1.pxfuel.com/desktop-wallpaper/581/154/desktop-wallpaper-backgrounds-for-login-page-login-page.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.login_text {
+  color: white;
+}
+.form {
+  background-color: transparent;
+  padding: 4vw;
+  border-radius: 3vw;
+  box-shadow: 1px 0.5px 4px white;
+}
+.input {
+  width: 25vw;
+}
+.item label {
+  width: 8vw;
+  color: white !important;
+}
+
+.link_text {
+  color: white;
+  text-decoration: none;
+}
+.button-div {
+  display: flex;
+  align-items: center;
+  justify-content: right;
+}

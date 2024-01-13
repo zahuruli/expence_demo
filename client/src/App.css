@@ -1,0 +1,34 @@
+.navbar {
+  background-color: rgb(194, 215, 216) !important;
+}
+.content {
+  height: 82vh;
+}
+
+.filters {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1.2vw;
+  box-shadow: 0 0 0.4vw gray;
+}
+
+.footer {
+  background-color: #163d3f !important;
+}
+
+.btn-style:hover {
+  background-color: #7bb0b3;
+  transition: all 1.2s;
+}
+
+@media screen and (max-width: 600px) {
+  .unorder_list {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .unorder_list li {
+    margin-right: 4vw;
+  }
+}
